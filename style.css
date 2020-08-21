@@ -1,0 +1,36 @@
+.character {
+  background: red;
+  height: 70px;
+  width: 40px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: -10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.character .face {
+  position: relative;
+  top: -27px;
+}
+
+.character-slide {
+  background: red;
+  height: 40px;
+  width: 70px;
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  text-align: left;
+  font-size: 1.5rem;
+  margin-top: -27px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.character-slide .face {
+  position: relative;
+  left: -20px;
+}
